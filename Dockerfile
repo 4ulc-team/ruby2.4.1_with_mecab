@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.4.1-node
+FROM circleci/ruby:2.4.1-node-browsers
 
 ADD circle/install_mecab.sh /home/circleci/install_mecab.sh
 
